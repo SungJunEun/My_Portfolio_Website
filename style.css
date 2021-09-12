@@ -1,6 +1,20 @@
+:root {
+  /* color */
+  --COLOR-DARK-GREEN : #4C6360;
+  --COLOR-MEDIUM-GREEN : #678B7F;
+  --COLOR-LIGHT-GREEN:  #8AA39D;
+  --COLOR-SAND: #D9CECC;
+  --COLOR-PALE: #F2ECEB;
+  /* weight */
+  --WEIGHT-LIGHT : 200;
+  --WIGHT-HEAVY : 900;
+  /* size */
 
+}
 
-/* body {
+* {
   font-family: 'Exo', sans-serif;
-  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
