@@ -143,16 +143,12 @@ li {
 
 }
 .stack-languages {
-
   border-right: 1px solid VAR(--COLOR-DARK-WHITE);
 }
 .stack-tools {
-
   border-right: 1px solid VAR(--COLOR-DARK-WHITE);
 }
-.stack-etc {
 
-}
 .stack-title {
   font-size: VAR(--SIZE-NORMAL);
   color: #0c240f;
@@ -168,4 +164,38 @@ li {
 .item {
   margin-bottom: VAR(--SIZE-SMALLEST);
 }
-
+.projects {
+  
+  width: 70%;
+  height: 400px;
+}
+.projects-title {
+  font-size: VAR(--SIZE-BIG);
+  text-align: center;
+  margin: var(--SIZE-NORMAL);
+}
+.projects-menu {
+  margin:auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects-menu > div {
+  text-align: center;
+  flex:1;
+}
+.menu-frontend {
+  border-right: 1px solid black;
+  
+}
+.menu-js {
+  border-right: 1px solid black;
+}
+.menu-item {
+  font-size: VAR(--SIZE-SMALLEST);
+  transition: 100ms ease-in;
+}
+.menu-item:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
