@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width", initial-scale=0.41, maximum-scale=1">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;400;900&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <script defer src="script.js"></script>
@@ -17,12 +17,12 @@
       <div class="nav-menu">
         <button class="nav-menu-item">About me</button>
         <button class="nav-menu-item">Let's talk!</button>
-
+        <button class="menu-toggle"><i class="fas fa-bars"></i></button>
       </div>
       </nav>
     <header class="header">
       <h1 class="header-title">Hi, Im June.</h1>
-      <h2 class="header-subtitle">I'm passionate about learning and making new stuffs in my own.</h2>
+      <h3 class="header-subtitle">I'm passionate about learning and making new stuffs in my own.</h2>
       <img src="img/avatar.svg" alt="" class="header-avatar">
     <section class="illust"><img src="img/illust.svg" alt="" class="illust-img"></section>      
       </header>
@@ -31,8 +31,8 @@
       <div class="intro-box">
         <h2 class="intro-title">Nice to meet you!</h2>
       <p class="intro-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor laboriosam et suscipit optio eligendi adipisci eaque eum nam debitis beatae perspiciatis, molestiae veritatis doloribus dignissimos, hic nostrum qui nemo??</p>
+        </div>
       </section>
-      </div>
     <section class="stack">
       <div class="stack-languages">
         <i id = "stack-icon" class="fab fa-stack-overflow"></i>
@@ -73,9 +73,65 @@
           <button class = "menu-item">Others</button>
         </div>
       </nav>
+      <div class="projects-main">
+        <figure class="main-item">
+            <img src="img/rwg.png" alt="img" class="item-thumbnail">
+        </figure>
+        <figure class="main-item">
+            <img src="img/mcs.png" alt="img" class="item-thumbnail">
+        </figure>
+        <figure class="main-item">
+            <img src="img/sla.png" alt="img" class="item-thumbnail">
+        </figure>
+        <figure class="main-item">
+            <img src="img/bcg2.png" alt="img" class="item-thumbnail">
+        </figure>
+        <figure class="main-item">
+            <img src="img/qm.png" alt="img" class="item-thumbnail">
+        </figure>
+        <figure class="main-item">
+            <img src="img/ai.png" alt="img" class="item-thumbnail">
+        </figure>
+      </div>
     </section>
-    <section class="contact"></section>
-    <footer></footer>
 
+    <section class="test">
+      <h2 class="test-title">Testimonial</h2>
+      <div class="test-person">
+        <img src="img/fake1.svg" alt="" class="person-profile">
+        <p class = "person-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt natus cupiditate iure, similique itaque atque velit in. Quasi, totam! Itaque, maiores repellendus? </p>
+        </div>
+      <div class="test-person">
+        <p class = "person-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt natus cupiditate iure, similique itaque atque velit in. Quasi, totam! Itaque, maiores repellendus? </p>
+      <img src="img/fake2.svg" alt="" class="person-profile">
+
+        </div>        
+    </section>
+    <footer class="contact">
+      <div class="contact-main">
+        <div class="main-details">
+          <h2 class = "main-title">
+          Interested in Collaborating?
+        </h2>
+        <h3 class = "main-subtitle">
+          I'm always open to new projects! Whenever you want, we can talk.
+        </h3>
+        </div>
+        <div class="contact-menu">
+          <div class="menu-email">
+            <i id = "contact-icon" class="far fa-envelope"></i></i>
+            <p class="email-detail">kkang60298@gmail.com</p>
+          </div>
+          <div class="menu-link">
+            <div class="menu-github">
+              <i id = "contact-icon" class="fab fa-github"></i>
+            </div>
+            <div class="menu-linkedin">
+              <i id = "contact-icon" class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
