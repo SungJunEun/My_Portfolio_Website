@@ -58,7 +58,7 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: VAR(--SIZE-NORMAL);
+  margin: VAR(--SIZE-SMALL);
   max-width: 777px;
 }
 .nav-logo {
@@ -80,11 +80,12 @@ li {
   flex-direction: column;
   margin-bottom: VAR(--SIZE-BiGGEST);
 }
-.menu-wide-show {
+.show {
   display: flex;
 }
 .menu-wide-item {
-  padding: VAR(--SIZE-SMALL);
+  padding: VAR(--SIZE-SMALLEST);
+  font-size: 15px;
   border-radius: 0;
   border: none;
   outline: none;
@@ -409,7 +410,4 @@ li {
   .main-title {
     font-size: VAR(--SIZE-BIG);
   }
-}
-@media screen and (min-width: 1024px) {
-
 }

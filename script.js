@@ -26,8 +26,15 @@ document.body.insertBefore(menu_wide, header);
 console.log(menu_wide);
 menu_btn.addEventListener('click', ()=>{
   eventhandler();
-
 });
 function eventhandler() {
-  menu_wide.classList.toggle('menu-wide-show');
+  menu_wide.classList.toggle('show');
 }
+window.addEventListener('resize', ()=>{
+  let media = window.matchMedia("screen and (min-width: 800px)");
+if (media.matches) {
+  (menu_wide.className == 'menu-wide show') && menu_wide.classList.remove('show');
+}
+});
+
+console.log(media.matches);
