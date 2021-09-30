@@ -339,13 +339,22 @@ li {
   display: flex;
   justify-content: space-evenly;
 }
-#contact-icon {
+
+.contact-btn {
   font-size: var(--SIZE-BIG);
+  color: white;
+  transition: 200ms ease-in;
+}
+.contact-btn:hover {
+  transform: scale(1.1);
 }
 .email-detail {
   margin-left: VAR(--SIZE-SMALLEST);
   font-size : VAR(--SIZE-SMALLEST);
 }
+
+
+
 
 @media screen and (min-width: 800px) {
   body {
