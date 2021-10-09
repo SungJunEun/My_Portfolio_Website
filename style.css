@@ -302,7 +302,8 @@ a:hover {
 
 }
 .person-detail {
-  color: VAR(--COLOR-DARKEST-GREEN);
+  width: 80%;
+  color: black;
   font-weight: VAR(--WEIGHT-NORMAL);
 }
 .contact {
