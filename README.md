@@ -1,4 +1,4 @@
-# My Portfolio
+# My Portfolio Website
 ***Portfolio that introduces myself***
 
 https://sungjuneun.github.io/Portfolio/
