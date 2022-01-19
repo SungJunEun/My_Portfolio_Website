@@ -1,8 +1,7 @@
 # My Portfolio Website
 ***Portfolio that introduces myself***
 
-https://sungjuneun.github.io/Portfolio/
-
+https://sungjuneun.github.io/My_Portfolio_Website/
 ---
 ## Summary
 *Portfolio shows who I am, what I'm currently interested, and what I've done to pursue my goal.*
